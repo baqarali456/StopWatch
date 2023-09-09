@@ -1,0 +1,37 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-color: blueviolet;
+}
+.container{
+    position: relative;
+    background-color: brown;
+    height: 300px;
+    width: 400px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.timer{
+    display: flex;
+    color: #fff;
+    font-size: 30px;
+}
+.icons{
+    position: absolute;
+    top: 57%;
+    color: #fff;
+    margin-right: 12px;
+    margin-top: 10px;
+}
+.icons i{
+margin-left: 8px;
+font-size: 30px;
+cursor: pointer;
+}
